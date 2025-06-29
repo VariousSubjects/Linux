@@ -1,0 +1,7 @@
+pactl info - there should be sample rate 192000 for a sink FIIO and float 32le
+pulseaudio -k - to reload settings from a daemon.conf
+pulseaudio -- start - as above
+
+important parametr in the daemon.conf
+resample-method = soxr-vhq
+
