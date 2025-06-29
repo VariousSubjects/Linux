@@ -5,3 +5,5 @@ pulseaudio -- start - as above
 important parametr in the daemon.conf
 resample-method = soxr-vhq
 
+targetAudioDevice in linux settings - SPDIF FIIO BTR17
+
